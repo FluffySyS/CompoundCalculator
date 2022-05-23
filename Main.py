@@ -2,10 +2,10 @@
 import time
 
 while True:
-    starting_capital = int(input("Αρχικό κεφάλαιο(πρώτος μήνας επένδυσης): "))
-    regular_investment = int(input("Τακτική επένδυση(μηνιαία εισφορά): "))
-    interest_rate = int(input("Ετήσιο Επιτόκιο(%)"))
-    total_investment_period = int(input("Συνολική διάρκεια επένδυσης(μήνες): "))
+    starting_capital = int(input("Starting Capitall(first month): "))
+    regular_investment = int(input("Regular Investment(monthly): "))
+    interest_rate = int(input("APY(% yearly return rate)"))
+    total_investment_period = int(input("Total Investment Period(months): "))
 
     def get_current_daily_interest(total_investment):
         return (total_investment * (interest_rate/100)) /365
