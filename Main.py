@@ -2,7 +2,7 @@
 import time
 
 while True:
-    starting_capital = int(input("Starting Capitall(first month): "))
+    starting_capital = int(input("Starting Capital(first month): "))
     regular_investment = int(input("Regular Investment(monthly): "))
     interest_rate = int(input("APY(% yearly return rate)"))
     total_investment_period = int(input("Total Investment Period(months): "))
